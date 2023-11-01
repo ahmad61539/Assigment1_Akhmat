@@ -42,3 +42,47 @@ number = scanner.nextInt();
             number = scanner.nextInt();
 }
    ```
+
+##Tugas 3
+1. Kode ini membuat objek Scanner untuk menerima input dari pengguna melalui konsol. Pengguna diminta memasukkan tanggal lahir dalam format "hari bulan" (contoh: 15 3 untuk tanggal 15 Maret). Input tersebut disimpan dalam variabel day dan month. Selanjutnya, program memanggil fungsi determineZodiacSign(day, month) untuk menentukan zodiak berdasarkan input pengguna. Hasilnya disimpan dalam variabel zodiacSign untuk digunakan selanjutnya.
+```sh
+   Scanner scanner = new Scanner(System.in);
+        int day, month;
+
+        System.out.print("Masukkan tanggal lahir (contoh: 15 3 untuk tanggal 15 Maret): ");
+        day = scanner.nextInt();
+        month = scanner.nextInt();
+
+        String zodiacSign = determineZodiacSign(day, month);
+   ```
+2. Kode ini memeriksa hasil dari fungsi determineZodiacSign(day, month). Jika hasilnya tidak null (tanggal lahir valid), program mencetak zodiak pengguna. Jika hasilnya null (tanggal lahir tidak valid), program mencetak pesan kesalahan.
+```sh
+   if (zodiacSign != null) {
+            System.out.println("Zodiak Anda adalah: " + zodiacSign);
+        } else {
+            System.out.println("Tanggal lahir tidak valid.");
+        }
+
+        scanner.close();
+   ```
+3. Kode ini mendefinisikan dua array: zodiacSigns berisi nama-nama zodiak, dan endDayOfSigns berisi tanggal terakhir dari masing-masing zodiak.
+```sh
+    String[] zodiacSigns = {
+            "Capricorn", "Aquarius", "Pisces", "Aries", "Taurus", "Gemini",
+            "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius"
+        };
+
+        int[] endDayOfSigns = { 20, 19, 20, 19, 20, 20, 22, 22, 22, 22, 21, 21 };
+   ```
+4. Kode ini menentukan zodiak berdasarkan input bulan dan tanggal lahir pengguna. Pertama, kode memeriksa apakah input bulan dan tanggal berada dalam rentang yang valid (1-12 untuk bulan, 1-31 untuk tanggal). Jika valid, kode memeriksa apakah tanggal lahir masih dalam rentang zodiak bulan tersebut. Jika ya, zodiak tersebut dikembalikan. Jika tidak, zodiak bulan berikutnya dikembalikan. Jika input tidak valid, fungsi mengembalikan null.
+```sh
+    if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+            if (day <= endDayOfSigns[month - 1]) {
+                return zodiacSigns[month - 1];
+            } else {
+                return zodiacSigns[month % 12];
+            }
+        } else {
+            return null;
+        }
+   ```
