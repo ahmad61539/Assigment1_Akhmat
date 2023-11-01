@@ -20,20 +20,17 @@
    ```
 
 # Tugas 2
+1. Membaca input dari pengguna dan penamaan variabel yaitu number menggunakan type data integer
 ```sh
    Scanner scanner = new Scanner(System.in);
 int number;
    ```
-Membaca input dari pengguna dan penamaan variabel yaitu number menggunakan type data integer
-
-
+2. Menampilkan ( Masukkan sebuah bilangan bulat: ) dan menginput variabel number sesuai dengan pengguna input
 ```sh
    System.out.print("Masukkan sebuah bilangan bulat: ");
 number = scanner.nextInt();
    ```
-Menampilkan ( Masukkan sebuah bilangan bulat: ) dan menginput variabel number sesuai dengan pengguna input
-
-
+3. Code ini meminta pengguna memasukkan bilangan bulat, mencetak apakah bilangan tersebut positif atau negatif, dan terus mengulang proses tersebut sampai pengguna memasukkan 0, pada saat itu program akan berhenti dan mencetak "Program selesai."
 ```sh
    while (number != 0) {
             if (number > 0) {
