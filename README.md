@@ -19,7 +19,7 @@
 }
    ```
 
-# Tugas 2
+## Tugas 2
 1. Membaca input dari pengguna dan penamaan variabel yaitu number menggunakan type data integer
 ```sh
    Scanner scanner = new Scanner(System.in);
@@ -43,7 +43,7 @@ number = scanner.nextInt();
 }
    ```
 
-##Tugas 3
+## Tugas 3
 1. Kode ini membuat objek Scanner untuk menerima input dari pengguna melalui konsol. Pengguna diminta memasukkan tanggal lahir dalam format "hari bulan" (contoh: 15 3 untuk tanggal 15 Maret). Input tersebut disimpan dalam variabel day dan month. Selanjutnya, program memanggil fungsi determineZodiacSign(day, month) untuk menentukan zodiak berdasarkan input pengguna. Hasilnya disimpan dalam variabel zodiacSign untuk digunakan selanjutnya.
 ```sh
    Scanner scanner = new Scanner(System.in);
