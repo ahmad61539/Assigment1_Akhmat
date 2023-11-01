@@ -21,15 +21,22 @@ Jika variabel i kurang dari 9 maka akan memunculkan output angka yaitu 1, 2, 3, 
 Jika lebih dari 9 maka akan muncul output Akhmat Qavidhufahmi sampai ke 100
 
 # Tugas 2
-`Scanner scanner = new Scanner(System.in);
-int number;`
+```sh
+   Scanner scanner = new Scanner(System.in);
+int number;
+   ```
 Membaca input dari pengguna dan penamaan variabel yaitu number menggunakan type data integer
 
-`System.out.print("Masukkan sebuah bilangan bulat: ");
-number = scanner.nextInt();`
+
+```sh
+   System.out.print("Masukkan sebuah bilangan bulat: ");
+number = scanner.nextInt();
+   ```
 Menampilkan ( Masukkan sebuah bilangan bulat: ) dan menginput variabel number sesuai dengan pengguna input
 
-`while (number != 0) {
+
+```sh
+   while (number != 0) {
             if (number > 0) {
                 System.out.println("Bilangan positif.");
             } else {
@@ -37,4 +44,5 @@ Menampilkan ( Masukkan sebuah bilangan bulat: ) dan menginput variabel number se
             }
             System.out.print("Masukkan sebuah bilangan bulat (atau 0 untuk keluar): ");
             number = scanner.nextInt();
-}`
+}
+   ```
