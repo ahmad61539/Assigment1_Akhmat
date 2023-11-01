@@ -10,7 +10,8 @@
    if (i <= 9) {
   System.out.println(i);
 }
-   ```
+   ```![Screenshot (225)](https://github.com/ahmad61539/Assigment1_Akhmat/assets/71858233/c8c75b90-54ee-4a74-a587-0bd73ffa069a)
+ ```
 
 3. Jika lebih dari 9 maka akan muncul output Akhmat Qavidhufahmi sampai ke 100
 ```sh
@@ -18,6 +19,8 @@
    System.out.println("Akhmat Qavidhufahmi");
 }
    ```
+4. Ini adalah hasil outputnya
+![Screenshot (225)](https://github.com/ahmad61539/Assigment1_Akhmat/assets/71858233/300d8241-881e-4fe6-b02c-ffa855688ef1)
 
 ## Tugas 2
 1. Membaca input dari pengguna dan penamaan variabel yaitu number menggunakan type data integer
@@ -42,6 +45,8 @@ number = scanner.nextInt();
             number = scanner.nextInt();
 }
    ```
+4. Ini adalah hasil outputnya
+![Screenshot (226)](https://github.com/ahmad61539/Assigment1_Akhmat/assets/71858233/56713274-ac82-4c66-b410-3abf018e16d6)
 
 ## Tugas 3
 1. Kode ini membuat objek Scanner untuk menerima input dari pengguna melalui konsol. Pengguna diminta memasukkan tanggal lahir dalam format "hari bulan" (contoh: 15 3 untuk tanggal 15 Maret). Input tersebut disimpan dalam variabel day dan month. Selanjutnya, program memanggil fungsi determineZodiacSign(day, month) untuk menentukan zodiak berdasarkan input pengguna. Hasilnya disimpan dalam variabel zodiacSign untuk digunakan selanjutnya.
@@ -86,6 +91,9 @@ number = scanner.nextInt();
             return null;
         }
    ```
+5. Ini adalah hasil outputnya
+![Screenshot (227)](https://github.com/ahmad61539/Assigment1_Akhmat/assets/71858233/b45810ce-7f82-41b8-ba3d-43095d8fa2f2)
+
 ## Tugas 4
 1. Kode tersebut membuat sebuah array numbers yang berisi bilangan bulat dari 1 hingga 10. Selanjutnya, menggunakan sebuah loop for, program mencetak nilai-nilai dalam array tersebut satu per satu ke layar. Hasilnya adalah mencetak bilangan 1 hingga 10 ke layar.
 ```sh
@@ -96,3 +104,5 @@ number = scanner.nextInt();
             System.out.println(numbers[i]);
         }
    ```
+2. ini adalah hasil outputnya
+![Screenshot (228)](https://github.com/ahmad61539/Assigment1_Akhmat/assets/71858233/33ea9c7e-4429-45f6-8c48-59e2d394f19b)
