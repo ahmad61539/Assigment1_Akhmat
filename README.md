@@ -1,7 +1,9 @@
 ﻿# Penjelasan Tugas
 
 ## Tugas 1
-for (int i = 1; i <= 100; i++)
+ ```sh
+   for (int i = 1; i <= 100; i++)
+   ```
 perulangan for yang menjelaskan menggunakan int dan variabel i adalah 1. Jika i kurang dari 100. maka variabel i ditambah.
 
 `if (i <= 9) {
