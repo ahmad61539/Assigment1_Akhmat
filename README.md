@@ -86,3 +86,13 @@ number = scanner.nextInt();
             return null;
         }
    ```
+## Tugas 4
+1. Kode tersebut membuat sebuah array numbers yang berisi bilangan bulat dari 1 hingga 10. Selanjutnya, menggunakan sebuah loop for, program mencetak nilai-nilai dalam array tersebut satu per satu ke layar. Hasilnya adalah mencetak bilangan 1 hingga 10 ke layar.
+```sh
+    int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        System.out.println("Nilai dalam variabel array:");
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+   ```
