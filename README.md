@@ -10,7 +10,6 @@
    if (i <= 9) {
   System.out.println(i);
 }
-   ```![Screenshot (225)](https://github.com/ahmad61539/Assigment1_Akhmat/assets/71858233/c8c75b90-54ee-4a74-a587-0bd73ffa069a)
  ```
 
 3. Jika lebih dari 9 maka akan muncul output Akhmat Qavidhufahmi sampai ke 100
